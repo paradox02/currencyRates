@@ -7,7 +7,6 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/symbol_card"
-        style="@style/Widget.Material3.CardView.Filled"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"
@@ -31,11 +30,9 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.card.MaterialCardView
-        style="@style/Widget.Material3.CardView.Filled"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
-        app:cardBackgroundColor="?colorSecondaryContainer"
         app:cardCornerRadius="4dp"
         app:cardElevation="0dp"
         app:layout_constraintBottom_toBottomOf="parent"

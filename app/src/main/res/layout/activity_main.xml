@@ -20,7 +20,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/currency_fragment"
-        android:name="com.paypay.currency.ui.CurrenciesFragment"
+        android:name="com.paradox.currency.ui.CurrenciesFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"

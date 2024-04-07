@@ -28,10 +28,10 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/currencies_dropdown"
-        style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
         android:hint="@string/currency_select"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,7 +63,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/currencies_dropdown" />
 
-    <com.google.android.material.progressindicator.CircularProgressIndicator
+    <androidx.core.widget.ContentLoadingProgressBar
         android:id="@+id/circular_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
