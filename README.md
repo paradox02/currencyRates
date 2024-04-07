@@ -15,7 +15,6 @@ In this project you'll find :
 * **[Room](https://developer.android.com/training/data-storage/room)** for persistence
 * **[Retrofit](https://square.github.io/retrofit/)** for networking
 * **[Coroutines](https://kotlinlang.org/docs/coroutines-overview.html)** for asynchronous operations
-* **[LiveData](https://developer.android.com/topic/libraries/architecture/livedata)** and ui states handling for loading/success/error
 * Unit testing
 
 ## Why a currency converter app?
@@ -34,12 +33,6 @@ The app is the result of an interview exercise (done on codility.com), by the wa
 *   A quick reference for a mvvm clean architecture
 
 ## The project
-
-Clone the repository:
-
-```
-git clone https://github.com/nicolacaferra/architecture_sample_currency_converter.git
-```
 
 ## The app 
 ![App sample](https://nicolacaferra.dev/assets/images/2022/app_in_action.gif)
